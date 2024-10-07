@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hotel Management</h1>
+
+    <div class="reservation-form">
+        <h3>Add Reservation</h3>
+        <input type="text" id="customerName" placeholder="Customer Name">
+        <input type="number" id="guestNumber" placeholder="Number of Guests">
+        <input type="time" id="reservationTime" placeholder="Reservation Time">
+        <button onclick="add()">Add Reservation</button>
+    </div>
+
+    <h3>Reservation List</h3>
+    <div id="reservationList"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
